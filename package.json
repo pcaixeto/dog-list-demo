@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "simple webpage that show dogs and his description",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/pcaixeto/dog-list-demo.git"
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/pcaixeto/dog-list-demo#readme",
   "dependencies": {
     "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
