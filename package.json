@@ -1,0 +1,24 @@
+{
+  "name": "dog-list-demo",
+  "version": "1.0.0",
+  "description": "simple webpage that show dogs and his description",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pcaixeto/dog-list-demo.git"
+  },
+  "keywords": [
+    "dog-list"
+  ],
+  "author": "pcaixeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcaixeto/dog-list-demo/issues"
+  },
+  "homepage": "https://github.com/pcaixeto/dog-list-demo#readme",
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
