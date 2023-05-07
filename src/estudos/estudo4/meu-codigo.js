@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var api_externa_1 = require("./api-externa");
+var a = "A";
+var b = "B";
+console.log("meu codigo fazendo algo1");
+console.log("meu codigo fazendo algo2");
+(0, api_externa_1.funcaoAPI)(a, b);
+console.log("meu codigo fazendo algo3");
+console.log("meu codigo fazendo algo4");

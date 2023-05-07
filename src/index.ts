@@ -1,2 +1,1 @@
-console.log("Hello from typescript")
-console.log("Hello from typescript2")
+console.log("index.ts rodou!")
