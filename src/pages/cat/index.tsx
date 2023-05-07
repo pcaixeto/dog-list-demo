@@ -14,7 +14,7 @@ const CatListPage: React.FC = () => {
     try {
       const response = await fetch(`https://api.petfinder.com/v2/animals?type=cat&page=${page}`, {
         headers: {
-          Authorization: `Bearer 5oNHx4IHF3GxjpgElqqd7KWvz3Ukj1wsL1d75Qf7mN6ONEwVGl`
+          Authorization: `Bearer (adicionar chave API)`
         }
       });
       const data = await response.json();
