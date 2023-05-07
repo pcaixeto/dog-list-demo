@@ -10,8 +10,6 @@ const DogDetails: React.FC<DogDetailsProps> = ({ dog }) => {
   return (
     <div>
       <h1>{dog.name}</h1>
-      <p>Breed: {dog.breed}</p>
-      <p>Age: {dog.age}</p>
       <img src={dog.imageUrl} alt={dog.name} />
     </div>
   );
@@ -28,7 +26,7 @@ const DogDetailsPage: React.FC = () => {
       try {
         const response = await fetch(`https://dog.ceo/api/breed/${breed}/images/random`);
         const data = await response.json();
-        setDog({ name: breed as string, breed: breed as string, age: 0, imageUrl: data.message });
+        setDog({ name: breed as string, breed: breed as string, imageUrl: data.message });
       } catch (error) {
         console.error(`Erro ao buscar detalhes do cachorro ${breed}:`, error);
       }
