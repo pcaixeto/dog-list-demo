@@ -26,18 +26,19 @@ $ npm run dev
 
 # :rocket: Features
 
-- Search movies
-- Favorite movies
-- Move to Watch later
+- Display some dog breeds
+- Show name of the breed + image
+- Pagination + Responsive design
 
 ## 💻 Technologies and libraries
 
 <ul>
   <li>NextJS</li>
+  <li>Typescript</li>
   <li>React</li>
   <li>React Hooks</li>
   <li>Chakra-UI</li>
-  <li>TMDb API</li>
+  <li>Dog CEO API</li>
 </ul>
 
 ### Deployed in Vercel
