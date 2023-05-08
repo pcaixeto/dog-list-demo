@@ -8,7 +8,7 @@ const PAGE_SIZE = 10; // Quantidade de itens por página
 
 const IndexPage: React.FC = () => {
   const [dogsList, setDogsList] = useState<Dog[]>([]);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1); // Define o estado da página atual
 
   useEffect(() => {
     async function fetchDogsList() {
@@ -25,20 +25,20 @@ const IndexPage: React.FC = () => {
   }, []);
 
   // Define a lista de cães a ser exibida na página atual
-  const startIndex = (currentPage - 1) * PAGE_SIZE;
-  const endIndex = startIndex + PAGE_SIZE;
-  const currentDogsList = dogsList.slice(startIndex, endIndex);
+  const startIndex = (currentPage - 1) * PAGE_SIZE; // Define o estado da página atual
+  const endIndex = startIndex + PAGE_SIZE; // Define o índice do último item a ser exibido na página atual
+  const currentDogsList = dogsList.slice(startIndex, endIndex); // Define o índice do último item a ser exibido na página atual
 
   // Define o número total de páginas
-  const totalPages = Math.ceil(dogsList.length / PAGE_SIZE);
+  const totalPages = Math.ceil(dogsList.length / PAGE_SIZE); 
 
   // Define as funções de navegação de página
   function handleNextPage() {
-    setCurrentPage(currentPage + 1);
+    setCurrentPage(currentPage + 1); // Incrementa o número da página atual
   }
 
   function handlePreviousPage() {
-    setCurrentPage(currentPage - 1);
+    setCurrentPage(currentPage - 1); // Decrementa o número da página atual
   }
 
   return (
@@ -59,15 +59,15 @@ const IndexPage: React.FC = () => {
           <Box>
             <Button
               colorScheme="blue"
-              isDisabled={currentPage === 1}
-              onClick={handlePreviousPage}
+              isDisabled={currentPage === 1} // Define se o botão "Anterior" deve estar desabilitado quando a página atual for a primeira página
+              onClick={handlePreviousPage}  // Define a função a ser chamada quando o botão "Anterior" for clicado
             >
-              Anterior
+              Show Less
             </Button>
           </Box>
           <Box>
-            <Text fontSize="lg">
-              Página {currentPage} de {totalPages}
+            <Text fontSize="lg"> 
+              Página {currentPage} de {totalPages} 
             </Text>
           </Box>
           <Box>
@@ -76,7 +76,7 @@ const IndexPage: React.FC = () => {
               isDisabled={currentPage === totalPages}
               onClick={handleNextPage}
             >
-              Próxima
+              Show More
             </Button>
           </Box>
         </Stack>

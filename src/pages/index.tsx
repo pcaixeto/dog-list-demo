@@ -6,7 +6,7 @@ const IndexPage: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <h1>Ronaldo</h1>
+      <h1>Indice principal</h1>
       <div className={styles.buttonsContainer}>
         <Link href="/dog" className={styles.link} passHref>
           <button className={styles.button}>
