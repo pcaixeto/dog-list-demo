@@ -42,6 +42,6 @@ $ npm run dev
 
 ### Deployed in Vercel
 
-[Click Here](https://fakeflix-iota.vercel.app/)
+[Click Here to show](dog-list-demo.vercel.app)
 
 **By: Pedro Caixeta**
