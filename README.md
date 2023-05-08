@@ -33,11 +33,10 @@ $ npm run dev
 ## 💻 Technologies and libraries
 
 <ul>
+  <li>NextJS</li>
   <li>React</li>
   <li>React Hooks</li>
-  <li>Styled Components</li>
-  <li>React Icons</li>
-  <li>React-Router-Dom</li>
+  <li>Chakra-UI</li>
   <li>TMDb API</li>
 </ul>
 
