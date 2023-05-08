@@ -1,6 +1,7 @@
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Dog } from '../../interfaces/dog';
-import React, { useEffect, useState } from 'react';
+import styles from '../styles/index.module.css';
 
 interface DogDetailsProps {
   dog: Dog;
@@ -41,7 +42,19 @@ const DogDetailsPage: React.FC = () => {
     return <div>Loading...</div>;
   }
 
-  return <DogDetails dog={dog} />;
+  return (
+    <div className={styles.container}>
+      <DogDetails dog={dog} />
+      <div className={styles.buttonsContainer}>
+        <a href="/" className={styles.link}>
+          <div className={styles.button}>
+            Voltar para a lista
+            <span className={styles.buttonDescription}>Clique aqui para voltar para a lista de raças</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default DogDetailsPage;

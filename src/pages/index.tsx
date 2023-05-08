@@ -14,12 +14,6 @@ const IndexPage: React.FC = () => {
             <span className={styles.buttonDescription}>Lista de cachorros</span>
           </button>
         </Link>
-        <Link href="/cat" className={styles.link} passHref>
-          <button className={styles.button}>
-            Gato
-            <span className={styles.buttonDescription}>Lista de gatos</span>
-          </button>
-        </Link>
       </div>
     </div>
   );
