@@ -1,4 +1,3 @@
-# dog-list-demo
 <h1 align="center">
 # Dog List
 </h1>
@@ -45,4 +44,4 @@ $ npm run dev
 
 [Click Here](https://fakeflix-iota.vercel.app/)
 
-**By ❤ : [Rebeca](https://rebecadeveloper.netlify.app/)**
+**By: Pedro Caixeta**
