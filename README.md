@@ -44,4 +44,8 @@ $ npm run dev
 
 [Click Here to show](https://dog-list-demo.vercel.app/)
 
+## :scroll: TO-DOS
+   - Make responsive design
+   - Better frontend
+
 **By: Pedro Caixeta**
