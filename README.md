@@ -27,7 +27,7 @@ $ npm run dev
 
 - Display some dog breeds
 - Show name of the breed + image
-- Pagination + Responsive design
+- Pagination 
 
 ## 💻 Technologies and libraries
 
