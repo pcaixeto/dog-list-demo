@@ -10,7 +10,7 @@ interface DogDetailsProps {
 const DogDetails: React.FC<DogDetailsProps> = ({ dog }) => {
   return (
     <div>
-      <h1>{dog.name}</h1>
+      <h1 className={styles.dogName}>{dog.name}</h1>
       <img src={dog.imageUrl} alt={dog.name} />
     </div>
   );
@@ -48,7 +48,7 @@ const DogDetailsPage: React.FC = () => {
       <div className={styles.buttonsContainer}>
         <a href="/" className={styles.link}>
           <div className={styles.button}>
-            Voltar para a lista
+            Back to dogs
             <span className={styles.buttonDescription}>Clique aqui para voltar para a lista de raças</span>
           </div>
         </a>

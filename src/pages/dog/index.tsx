@@ -43,14 +43,14 @@ const IndexPage: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>LISTA DE CÃES</h1>
+      <h1 className={styles.title}>All type of dogs!</h1>
       <ul className={styles.list}>
         {currentDogsList.map((dog, index) => (
           <li key={index} className={styles.listItem}>
             <Link href={`/dog/${dog.name}`} id="link" passHref>
-              <button className={styles.button}>detalhe</button>
+              <button className={styles.button}>Image</button>
             </Link>
-            <strong className={styles.dogName}>Nome da Raça:</strong> {dog.name}
+            <strong className={styles.dogName}>Let me see a </strong> {dog.name}
           </li>
         ))}
       </ul>
@@ -67,7 +67,7 @@ const IndexPage: React.FC = () => {
           </Box>
           <Box>
             <Text fontSize="lg"> 
-              Página {currentPage} de {totalPages} 
+              Page {currentPage} of {totalPages} 
             </Text>
           </Box>
           <Box>
