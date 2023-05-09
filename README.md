@@ -16,7 +16,7 @@
 $ git clone https://github.com/pcaixeto/dog-list-demo.git
 
 # Install the dependencies
-$ npm
+$ npm install
 
 # Run in browser
 $ npm run dev
