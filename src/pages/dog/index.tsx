@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Dog } from '../../interfaces/dog';
 import { Box, Button, Center, Stack, Text } from '@chakra-ui/react';
-import { Flex } from '@chakra-ui/react';
 import styles from '../styles/index.module.css';
 
 const PAGE_SIZE = 10; // Quantidade de itens por página
@@ -51,7 +50,7 @@ const IndexPage: React.FC = () => {
             <Link href={`/dog/${dog.name}`} id="link" passHref>
               <button className={styles.button}>Show me!</button>
             </Link>
-            <strong className={styles.dogName}>Let me see a </strong> {dog.name}
+            <strong className={styles.dogName}>Show me the {dog.name}! </strong>
           </li>
         ))}
       </ul>
