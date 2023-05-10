@@ -5,7 +5,7 @@
 ## Screenshot
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="src/assets/home.png" width="400px">
+   <img src="src/assets/home.png" width="350px">
    <img src="src/assets/home2.png" width="500px">
 </div>
 
