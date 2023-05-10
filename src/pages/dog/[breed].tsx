@@ -46,7 +46,7 @@ const DogDetailsPage: React.FC = () => {
     <div className={styles.container}>
       <DogDetails dog={dog} />
       <div className={styles.buttonsContainer}>
-        <a href="/" className={styles.link}>
+        <a href="/dog" className={styles.link}>
           <div className={styles.button}>
             Back to dogs
             <span className={styles.buttonDescription}>Clique aqui para voltar para a lista de raças</span>
