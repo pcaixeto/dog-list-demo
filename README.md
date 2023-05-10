@@ -6,7 +6,7 @@
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="src/assets/home.png" width="400px">
-   <img src="src/assets/home2.png" width="400px">
+   <img src="src/assets/home2.png" width="600px">
 </div>
 
 ## 📥 How to run
