@@ -27,7 +27,7 @@ $ npm run dev
 
 - Display some dog breeds
 - Show name of the breed + image
-- Pagination + Responsive design
+- Pagination 
 
 ## 💻 Technologies and libraries
 
@@ -43,5 +43,9 @@ $ npm run dev
 ### Deployed in Vercel
 
 [Click Here to show](https://dog-list-demo.vercel.app/)
+
+## :scroll: TO-DOS
+   - Make responsive design
+   - Better frontend
 
 **By: Pedro Caixeta**
