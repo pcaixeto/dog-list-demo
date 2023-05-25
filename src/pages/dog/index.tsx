@@ -35,6 +35,7 @@ const IndexPage: React.FC = () => {
   // Define as funções de navegação de página
   function handleNextPage() {
     setCurrentPage(currentPage + 1); // Incrementa o número da página atual
+    //teste
   }
 
   function handlePreviousPage() {
